@@ -1,0 +1,19 @@
+Este es un microservicio encargado de procesar los datos de algunos cursos
+ofrecidos, se presenta un proyecto simple pero con la jerarquia de paquetes
+lo mas parecido a la realidad, ninguna configuracion adicional es requeria
+en el paquete cursos, configs o models, todo el trabajo se centrara en 
+controller, actualmente la URL del proyecto es http://localhost:8080/api/v0.
+
+----------------------- Desafio -----------------------
+
+- Actualemnte el proyecto puede ejecutarse pero no recibe la solicitud
+deseada, es decir se han realizado numerosos request al url http://localhost:8080/api/v0/cursos/listar
+y siempre se obtiene un codigo de respuesta 404 not found, averiguar por que y corregir.
+
+
+- Una vez que sea corregido el tema de las solicitudes implementar un metodo para consultar 
+un curso en especifico, el nombre de este curso sera enviado a traves de la URL ej 
+http://localhost:8080/api/v0/cursos/listar/{nombreCurso}, implemente la 
+logica necesaria y sus conocimiento adquiridos en  las clases de Java puro para lograr dicho objetivo.
+
+- Investigue todas las anotaciones o aspectos que desconozca
